@@ -2,11 +2,22 @@
 public class SimpleDotComTestDrive {
 
 	public static void main(String[] args) {
+		int numOfGuess = 0;
+		GameHelper helper = new GameHelper();
 		SimpleDotCom dot = new SimpleDotCom();
-		int[] locations = {2,3,4};
+		int randomNum = (int) (Math.random() * 5);
+		int[] locations = {randomNum,randomNum+1,randomNum+2};
 		dot.setLocationCells(locations);
-		String userGuess = "0";
-		String result = dot.checkYourself(userGuess);
+		boolean isAlive = true;
+		while(isAlive == true) {
+			String guess = helper.getUserInput("enter a number");
+			String result = dot.checkYourself(guess);
+			numOfGuess++;
+			if(result.equals("kill")) {
+				isAlive = false;
+			}
+			System.out.println("You took " + numOfGuess + " guesses");
+		}
 	}
 
 }
