@@ -49,8 +49,29 @@ public class GameHelper {
 					if (location >= gridSize) {
 						success = false;
 					}
+					if (x >0 && (location % gridLength == 0)) {
+						success = false;
+					}
+				} else {
+					success = false;
 				}
 			}
 		}
+		
+		int x = 0;
+		int row = 0;
+		int column = 0;
+		
+		while (x < comSize) {
+			grid[ coords[ x]] = 1;
+			row = (int) (coords[ x] / gridLength);
+			column = coords[ x] % gridLength;
+			temp = String.valueOf(alphabet.charAt(column));
+			
+			alphaCells.add(temp.concat(Integer.toBinaryString(row)));
+			x++;
+		}
+		
+		return alphaCells;
 	}
 }
