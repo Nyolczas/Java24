@@ -8,11 +8,11 @@ public class DotComBust {
 	private void setUpGame() {
 		//first make dot coms and give them locations
 		DotCom one = new DotCom();
-		one.SetName("Pets.com");
+		one.setName("Pets.com");
 		DotCom two = new DotCom();
-		two.SetName("eToys.com");
+		two.setName("eToys.com");
 		DotCom three = new DotCom();
-		three.SetName("Go2.com");
+		three.setName("Go2.com");
 		dotComList.add(one);
 		dotComList.add(two);
 		dotComList.add(three);
@@ -59,15 +59,17 @@ public class DotComBust {
 	private void finishGame() {
 		System.out.println("All Dot Coms are dead! Your stock is now worthless.");
 		if (numOfGuesses <= 18) {
-			System.out.println("");
-			System.out.println("");
+			System.out.println("It only took you " + numOfGuesses + " guesses.");
+			System.out.println("You got out before your options sank.");
 		} else {
-			System.out.println("");
-			System.out.println("");
+			System.out.println("Took you long enogh. " + numOfGuesses + " guesses.");
+			System.out.println("Fish are dancing with your options");
 		}
 	}
 	
 	public static void main (String[] args) {
-		
+		DotComBust game = new DotComBust();
+		game.setUpGame();
+		game.startPlaying();
 	}
 }
