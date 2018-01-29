@@ -57,6 +57,17 @@ public class DotComBust {
 	}
 	
 	private void finishGame() {
+		System.out.println("All Dot Coms are dead! Your stock is now worthless.");
+		if (numOfGuesses <= 18) {
+			System.out.println("");
+			System.out.println("");
+		} else {
+			System.out.println("");
+			System.out.println("");
+		}
+	}
+	
+	public static void main (String[] args) {
 		
 	}
 }
