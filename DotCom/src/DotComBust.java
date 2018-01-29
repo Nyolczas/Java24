@@ -42,7 +42,21 @@ public class DotComBust {
 		String result = "miss";
 		
 		for(DotCom dotComToTest : dotComList) {
+			result = dotComToTest.checkYourself(userGuess);
 			
+			if(result.equals("hit")) {
+				break;
+			}
+			
+			if(result.equals("kill")) {
+				dotComList.remove(dotComToTest);
+				break;
+			}
 		}
+		System.out.println(result);
+	}
+	
+	private void finishGame() {
+		
 	}
 }
