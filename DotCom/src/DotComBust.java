@@ -3,7 +3,7 @@ public class DotComBust {
 	
 	private GameHelper helper = new GameHelper();
 	private ArrayList<DotCom> dotComList = new ArrayList<DotCom>();
-	private int numOfGuess = 0;
+	private int numOfGuesses = 0;
 	
 	private void setUpGame() {
 		//first make dot coms and give them locations
@@ -29,7 +29,20 @@ public class DotComBust {
 
 	private void startPlaying() {
 		
+		while(!dotComList.isEmpty()) {
+			String userGuess = helper.getUserInput("Enter a Guess");
+			checkUserGuess(userGuess);
+		}
+		finishGame();
 	}
 	
-
+	private void checkUserGuess(String userGuess) {
+		numOfGuesses++;
+		
+		String result = "miss";
+		
+		for(DotCom dotComToTest : dotComList) {
+			
+		}
+	}
 }
