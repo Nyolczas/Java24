@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f47a45a-e70a-4171-8f3b-ca7c7d66f576" name="Default" comment="" />
+    <list default="true" id="4f47a45a-e70a-4171-8f3b-ca7c7d66f576" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/SimpleGui3A.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleGui1B.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleGui1B.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleGui1B.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -31,6 +34,20 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#634#635#0" expanded="true" />
                 <element signature="e#675#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleGui3A.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SimpleGui3A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/SimpleGui1.java" />
         <option value="$PROJECT_DIR$/src/SimpleGui1B.java" />
         <option value="$PROJECT_DIR$/src/MyDrawPanel.java" />
+        <option value="$PROJECT_DIR$/src/SimpleGui3A.java" />
       </list>
     </option>
   </component>
@@ -144,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleGui1B">
+  <component name="RunManager" selected="Application.SimpleGui3A">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -169,6 +187,20 @@
     <configuration name="SimpleGui1B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SimpleGui1B" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Swing" />
+      <envs />
+    </configuration>
+    <configuration name="SimpleGui3A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SimpleGui3A" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -254,14 +286,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.SimpleGui1" />
       <item index="1" class="java.lang.String" itemvalue="Application.SimpleGui1B" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SimpleGui3A" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SimpleGui1B" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SimpleGui1" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.SimpleGui3A" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SimpleGui1B" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SimpleGui1" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +392,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
             <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleGui3A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
           </folding>
         </state>
       </provider>
